@@ -202,8 +202,8 @@ strong, b {
   z-index: 150;
   position: relative;
   width: 100%;
-  flex: 0 0 380px;
-  height: 380px;
+  flex: 0 0 180px;
+  height: 180px;
 }
 .header.shaded {
   box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
@@ -255,8 +255,8 @@ strong, b {
 
 @media(min-width: 600px) {
   .header {
-    flex: 0 0 500px;
-    height: 500px;
+    flex: 0 0 300px;
+    height: 300px;
   }
   .navbar.fixed:not(.autohide) + .header {
     margin-top: 64px;
